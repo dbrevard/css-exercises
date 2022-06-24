@@ -1,0 +1,14 @@
+.pos-press {
+    background-color: black;
+    color: white;
+}
+
+.neg-press {
+    background-color: yellow;
+}
+
+.pos-press,
+.neg-press {
+    font-size: 28px;
+    font-family: 'Helvetica', 'Times New Roman', 'sans';
+}
