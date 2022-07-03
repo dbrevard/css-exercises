@@ -12,6 +12,8 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
+  display: flex;
+  /* Applying flex */
   justify-content: center;
   align-items: center;
 }
