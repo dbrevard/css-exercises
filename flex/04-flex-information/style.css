@@ -1,6 +1,8 @@
 body {
   font-family: 'Courier New', Courier, monospace;
   display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 img {
@@ -8,14 +10,31 @@ img {
   height: 100px;
 }
 
+.heading-area {
+  /* background-color: pink; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
 }
 
+.plants {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  /* background-color: lightgreen;  */ 
+}
 
-
-
+/* Decided to add color to the areas that I worked on! It looks nice! Going  to comment them out */
 
 
 
