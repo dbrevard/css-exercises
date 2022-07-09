@@ -28,8 +28,15 @@ input {
 
 div ul {
   display: flex;
-  flex-direction: row;
-  gap: 16px
+  flex-direction: row-reverse;
+  gap: 16px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
 }
 
 .header {
