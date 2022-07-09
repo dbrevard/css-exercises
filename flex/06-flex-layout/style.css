@@ -26,6 +26,12 @@ input {
   margin-bottom: 16px;
 }
 
+div ul {
+  display: flex;
+  flex-direction: row;
+  gap: 16px
+}
+
 .header {
   position: relative;
   bottom: 0;
