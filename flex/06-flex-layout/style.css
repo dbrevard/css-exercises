@@ -33,8 +33,6 @@ div ul {
   list-style: none;
 }
 
-li {}
-
 a {
   text-decoration: none;
   color: black;
@@ -50,7 +48,6 @@ a {
   display: flex;
   justify-content: space-between;
   padding-right: 2rem;
-
 }
 
 .footer {
@@ -65,9 +62,17 @@ a {
   background: #eee;
 }
 
-.content .buttons {
+.buttons {
   display: flex;
   gap: 16px;
   list-style: none;
+  justify-content: center;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
   align-content: center;
+  align-items: center;
+  flex: 1;
 }
