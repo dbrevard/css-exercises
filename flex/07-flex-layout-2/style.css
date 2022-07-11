@@ -2,6 +2,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -18,41 +20,47 @@ body {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 0.5rem;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
   display: flex;
+  flex-shrink: 0;
+  padding: 16px;
 }
 
 .card {
-  /*border: 1px solid #eee;*/
+  border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   padding: 16px;
   margin: 16px;
+  width: 300px;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
+  font-size: 24px;
 }
 
 div ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .blue-xbox-controller {
   display: flex;
-  flex-direction: row;
-  flex: 1;
+  padding: 32px;
   flex-wrap: wrap;
-  align-items: stretch;
 }
 
-* {
-  /* border: 2px solid black;
-  display: flex;
-  flex-direction: column; Still questioning whether I will need this code so keep it just in case */
-}
